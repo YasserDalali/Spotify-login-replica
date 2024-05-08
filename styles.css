@@ -1,0 +1,57 @@
+body {overflow: hidden;}
+
+#main-page {
+  display: flex;
+  flex-direction: row;
+}
+/* --------------------------------- */
+
+main {
+  border-radius: 10px;
+  padding: 2.7rem;
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 100vh;
+}
+
+
+main section article {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main section article div {
+    margin-right: 2.5rem;
+}
+main section article img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: large;
+}
+
+/* --------------------------------- */
+aside {
+    width: 25%;
+  
+    background-color: #000000;
+    height: 100vh;
+  }
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+}
+
+.unselected {color: rgb(167, 167, 167)}
+.unselected:hover {color: white; cursor: pointer;}
+
+li .fas {margin-right: 1rem;}
