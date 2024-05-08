@@ -1,4 +1,5 @@
-body {overflow: hidden;}
+
+body {overflow-x: hidden;}
 
 #main-page {
   display: flex;
@@ -21,16 +22,38 @@ main section article {
     flex-direction: row;
     align-items: center;
 }
-main section article div {
+.s-card {
     margin-right: 2.5rem;
 }
-main section article img {
+.s-card img {
+    object-fit: cover ;
     width: 200px;
+    height: 200px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .title {
-    font-size: large;
+    font-size:medium;
+}
+
+.desc {
+    font-size:small;
+    color: rgb(146, 146, 146);
+}
+
+.s-card p {
+    margin: 0;
+}
+
+.s-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.artist img {
+    border-radius: 50%;
 }
 
 /* --------------------------------- */
